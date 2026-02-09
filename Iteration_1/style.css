@@ -1,0 +1,41 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.border-repository{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    width: 45%;
+    height: inherit;
+}
+
+.visibility{
+    color:gray;
+    font-size: 13px;
+    border: 1px solid gray;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 25px;
+    margin-left: 7px;
+}
+
+svg{
+    width: 16px;
+    height: 16px;
+}
+
+.circle{
+    width: 16px;
+    height: 16px;
+    background-color: rgb(164, 38, 38);
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.margin{
+    margin-left: 5px;
+}
