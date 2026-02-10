@@ -10,8 +10,11 @@ console.log(message);
 
 //var - устаревший тип переменных, похож на let, но можно использовать
 //не только в пределах функции или цикла, в котором она объявлена
+//+условный оператор
 if (new Date().getDate() > DAY_BEGINS_INTERNSHIP[0]+DAY_BEGINS_INTERNSHIP[1]){
     var difference = new Date().getDate()-(DAY_BEGINS_INTERNSHIP[0]+DAY_BEGINS_INTERNSHIP[1]);
+} else {
+    var difference = null;
 }
 console.log("The training has already started! It's already been " + difference + " day.");
 
@@ -71,4 +74,10 @@ let count2 = 0;
 do {
     console.log(arr[count2]);
     count2++;
+
 } while (count2 < arr.length);
+
+//тернарный оператор позволяет получить тот же результат,
+//что и условный оператор только более коротким способом
+let diff = (new Date().getDate() > DAY_BEGINS_INTERNSHIP[0]+DAY_BEGINS_INTERNSHIP[1]) ? (new Date().getDate()-(DAY_BEGINS_INTERNSHIP[0]+DAY_BEGINS_INTERNSHIP[1])) : null;
+console.log("diff: " + diff);
