@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My repository</title>
+    <script src="Iteration_5.js" defer></script> 
+    <!-- Скрипт можно подключать 3 способами
+        1) обычный <script src="Iteration_5.js"></script>
+
+        благодаря атрибутам скрипт загружается в фоновом режиме
+        2) при defer скрипт будет выполняться только после того как весь html будет загружен
+           <script src="Iteration_5.js" defer></script>
+        3) при async скрипт загружается параллельно с html и выполняется сразу после его загрузки, приостанавливая разбор html 
+           <script src="Iteration_5.js" async></script> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="border-question">
+        <lable for="username">Username: </lable>
+        <input id="username" type="text" style="width: 40em;">
+        <button id="buttonUser">Найти репозитории</button>
+    </div>
+
+    <div id="repos"></div>
+</body>
+
+</html>
