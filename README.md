@@ -1,1 +1,0 @@
-# Practice_on_senla
